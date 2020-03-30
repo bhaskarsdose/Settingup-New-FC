@@ -5,13 +5,13 @@ Steps to be followed for setting fresh board(without boot loader/firmware) Windo
 
 * Open dfu manager which get installed with above package.
 
-  ![]()
+  ![](https://github.com/bhaskarsdose/Setting_up_new_FC/blob/master/dfu_1.PNG)
 
 * select GENERATE HEX file button and click next(ONLY USE HEX, BIN DON'T WORK).
 
 * In next window select s19 and HEX button.
 
-  ![]()
+  ![](https://github.com/bhaskarsdose/Setting_up_new_FC/blob/master/dfu_2.PNG)
 
 * Select the .hex file generated using the command
 
@@ -28,21 +28,21 @@ Steps to be followed for setting fresh board(without boot loader/firmware) Windo
 
 * After getting .dfu file open DfuseDemo,
 
-  ![]()
+  ![](https://github.com/bhaskarsdose/Setting_up_new_FC/blob/master/se_1.PNG)
 
 * In Dfusedemo choose the .dfu file and connect your board in dfu mode and click on upgrade and only do this in upgrade and verify section only.
 
-  ![]()
+  ![](https://github.com/bhaskarsdose/Setting_up_new_FC/blob/master/se_2.PNG)
 
 Done, Reconnect your board and check its led and see in device manager for ensuring that bootloader is burned successfully if your board is detected then move to burn ardupilot firmware using MISSION PLANNER by following these steps:-
 
 * Open mission planner and go to INITIAL SETUP<Install Firmware.
 
-  ![]()
+  ![](https://github.com/bhaskarsdose/Setting_up_new_FC/blob/master/fc_1.PNG)
 
 * Then click on "Load custom firmware"
 
-  ![]()
+  ![](https://github.com/bhaskarsdose/Setting_up_new_FC/blob/master/fc_2.PNG)
 
 * Select the correct .apj file generated using command:
 
